@@ -1,0 +1,88 @@
+<!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Le Nguyen Minh Quan
+ID: 3978949
+Acknowledgement: 
+W3school: https://www.w3schools.com/html/default.asp, https://www.w3schools.com/css/default.asp 
+Favicon: https://www.favicon.cc
+Emoji: https://emojipedia.org
+Color: https://htmlcolorcodes.com
+Idea for the bookstore and book images, descriptions: https://www.youtube.com/watch?v=Je70L722Adc, https://www.bookswagon.com, https://www.barnesandnoble.com, https://support.bookshop.org/en/support/tickets/new
+Original video: https://www.youtube.com/watch?v=xqMozc4K4pg
+Responsive for small mobile screens and big desktop screens: https://www.youtube.com/watch?v=VQraviuwbzU-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomended for you</title>
+    <link rel="stylesheet" href="detail.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <header class="device">
+        <div class="logo">
+            <a href="index.html"><img src="lf18.png" alt="This is the website logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="index1.html" target="_blank">Sport</a>
+                    <div class="category-content">
+                        <a href="index1.html" target="_blank">Amercian Football</a>
+                        <a href="index1.html" target="_blank">Basketball</a>
+                        <a href="index1.html" target="_blank">Football</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="index2.html" target="_blank">Health</a>
+                    <div class="category-content">
+                        <a href="index2.html" target="_blank">Fitness</a>
+                        <a href="index2.html" target="_blank">Nutrition</a>
+                        <a href="index2.html" target="_blank">Mental Health</a>
+                    </div>
+                </li>
+                <li><a href="index5.html">Recomended for you</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button type="submit">🔍</button>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="main-content">
+            <h2>Try to find some books to read ? I got you ^.^</h2>
+            <h4 style="margin-top: 40px;">Top 5 Fitness Books</h4>
+            <iframe id="intro-video" 
+                src="https://www.youtube.com/embed/9DhCspmvq-A">
+            </iframe> 
+            <h4 style="margin-top: 40px;">Top 5 Sport Books</h4>
+            <iframe id="intro-video" 
+                src="https://www.youtube.com/embed/a-aR3Bi6Ggo">
+            </iframe> 
+            <h4 style="margin-top: 40px;">Top 10 Self-Help(Mental health) Books</h4>
+            <iframe id="intro-video" 
+                src="https://www.youtube.com/embed/7hVZ-gjGoOk">
+            </iframe> 
+            <hr>
+            <nav id="footer">
+                <ul>
+                    <li><a href="index6.html">About Us</a></li>
+                    <li><a href="index7.html">Privacy Policy</a></li>
+                    <li><a href="index8.html">Terms</a></li>
+                    <li><a href="index9.html" >Copyright</a></li>
+                    <li><a href="index4.html" >Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 SaigonPinkie Bookstore. All right reserved</p>
+    </footer>
+</body>
+</html>
